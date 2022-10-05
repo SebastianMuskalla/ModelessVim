@@ -12,7 +12,7 @@ This configuration is not meant for the aficionado who prefers `vim` over
 
 #### Note:
 A **modeless** editor is a normal editor in which the letter keys will let you
-  directly type text, and commands like saving files are performed via keybinds.
+  directly type text, and commands like saving files are performed via key binds.
 This applies to basically all editors with a GUI and
   some editors meant for terminals like `nano`.
 
@@ -39,8 +39,8 @@ Debian 11 (Bullseye) running in WSL2 on Windows 10 21H2, displayed using the
 Some features
 -------------
 * Support for standard [key binds](#key-bindings).
-* Show an infoline at the top of the screen that reminds you of the keybinds.
-* Show a statusline at the bottom with the file, the cursor position,
+* Show an infobar at the top of the screen that reminds you of the key binds.
+* Show a statusbar at the bottom with the file, the cursor position,
   and some other information.
 * Sane default settings for many options.
 
@@ -55,7 +55,7 @@ Screenshots
 *Modeless `vim` with the `_ascii` version of the config files.*
 
 ![modeless vim](img/vi.jpg)
-*`vi` aka. modeful `vim` using `modeless.vimrc`.*
+*`vi` aka modeful `vim` using `modeless.vimrc`.*
 
 
 Contents
@@ -76,7 +76,7 @@ Installation
   in the `img` folder.
   ```sh
   git clone --sparse \
-      git@github.com:SebastianMuskalla/ModelessVim.git \
+      https://github.com/SebastianMuskalla/ModelessVim.git \
       ~/.vim
   ```
 * `vim` should autodetect the `vimrc` file in `~/.vim`.
@@ -131,7 +131,7 @@ Nerd font
 The default configuration requires a nerd font (<https://www.nerdfonts.com>.)
 (A nerd font is a monospace font that has additional icons inserted.)
 To be precise, the infobar at the top and the statusbar at the bottom of the
-terminal window use some of these cutom icons.
+terminal window use some of these custom icons.
 Additionally, your terminal should support displaying unicode characters.
 
 I recommend using a Nerd Font; I am using the nerd font version of
@@ -176,10 +176,10 @@ Select in the corresponding direction. Leave selection mode with arrow keys or E
 **Other**
 * `Ctrl+Z` - Undo
 * `Ctrl+Y` - Redo
-* `Shift+Tab` - De-Tab (go back 4 spaces)
+* `Shift+Tab` - De-tab (go back 4 spaces)
 * `Ctrl+L` - Toggle line numbers (helpful when copying from terminal window)
 * `Ctrl+N`, `Ctrl+B` - Next commands in "normal" vim mode\
-    This keybind allows the user to input `vim` commands like `:q!`.
+    This key bind allows the user to input `vim` commands like `:q!`.
 
 * `F2` - Toggle pastemode.\
   In pastemode, `vim` will not try to reformat text that is pasted into vim.
