@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Redirect `vi` to this file in order to use `vi` as a modeful version of `vim`.
+# See README.md for details.
+
+if [ -e "$HOME/.vim/virc" ]
+then
+    vim -u "$HOME/.vim/virc" $*
+else
+    vim $*
+fi

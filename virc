@@ -1,0 +1,12 @@
+#!/bin/sh
+"Lines that start with quotation marks are comments."
+"The first line tricks the editor into using shell script syntax highlighting."
+
+"This file loads the modeful presets for vim."
+
+"This file will not be automatically loaded unless you"
+"  either explicitly pass it to vim with the -u option"
+"  or create a symbolic link from ~/.vimrc to this file."
+"See README.md and the file `vi`."
+
+runtime modeful.vimrc
