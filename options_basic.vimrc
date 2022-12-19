@@ -82,5 +82,5 @@ set wrap!
 "Disable encryption feature on Ctrl+X to prevent accidental usage"
 cnoreabbrev <expr> X (getcmdtype() is# ':' && getcmdline() is# 'X') ? 'x' : 'X'
 
-"F11: Toggle pastemode."
-set pastetoggle=<F11>
+"F2: Toggle pastemode."
+set pastetoggle=<F2>

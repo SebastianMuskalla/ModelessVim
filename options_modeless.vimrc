@@ -58,5 +58,5 @@ set showmode!
 
 "Keybinds"
 
-"F11: Toggle pastemode."
-set pastetoggle=<F11>
+"F2: Toggle pastemode."
+set pastetoggle=<F2>
