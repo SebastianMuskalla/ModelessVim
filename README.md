@@ -118,9 +118,9 @@ e.g. the file [vi](vi) in this repository
 
 if [ -e "$HOME/.vim/virc" ]
 then
-    vim -u "$HOME/.vim/virc" $*
+    vim -u "$HOME/.vim/virc" "$@"
 else
-    vim $*
+    vim "$@"
 fi
 ```
 
