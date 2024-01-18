@@ -62,6 +62,7 @@ Contents
 -------
 
 * [Installation](#installation)
+* [Run without install](#docker)
 * [Nerd font](#nerd-font)
 * [Key bindings](#key-bindings)
 * [Files in this repository](#files-in-this-repository)
@@ -124,6 +125,17 @@ else
 fi
 ```
 
+Docker
+------
+
+Want to give it a try before installing? Just copy/pasta these two commands:
+
+```bash
+docker build . -t modeless_vim:latest
+docker run -it modeless_vim bash
+```
+
+Voilà
 
 Nerd font
 ---------
